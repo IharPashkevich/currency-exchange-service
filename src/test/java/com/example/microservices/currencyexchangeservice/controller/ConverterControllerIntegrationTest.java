@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 
 /**
- * The type Converter controller integration test.
+ * The Converter controller integration test.
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -41,7 +41,7 @@ public class ConverterControllerIntegrationTest {
     private MockMvc mockMvc;
 
     /**
-     * When post request to converter and in valid amount then correct response.
+     * When post request to converter invalid amount then correct response.
      *
      * @throws Exception the exception
      */
@@ -64,7 +64,7 @@ public class ConverterControllerIntegrationTest {
     }
 
     /**
-     * When post request to converter and in valid currency from then correct response.
+     * When post request to converter invalid currency from then correct response.
      *
      * @throws Exception the exception
      */
@@ -87,7 +87,7 @@ public class ConverterControllerIntegrationTest {
     }
 
     /**
-     * When post request to converter and in valid currency to then correct response.
+     * When post request to converter invalid currency to then correct response.
      *
      * @throws Exception the exception
      */
@@ -110,7 +110,7 @@ public class ConverterControllerIntegrationTest {
     }
 
     /**
-     * When post request to converter and in valid currency to data then correct response.
+     * When post request to converter invalid currency to data then correct response.
      *
      * @throws Exception the exception
      */
@@ -133,7 +133,7 @@ public class ConverterControllerIntegrationTest {
     }
 
     /**
-     * When post request to converter and valid data then correct response.
+     * When post request to converter valid data then correct response.
      *
      * @throws Exception the exception
      */
